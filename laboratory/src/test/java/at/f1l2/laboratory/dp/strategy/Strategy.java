@@ -4,6 +4,11 @@ import org.junit.gen5.api.Test;
 
 public class Strategy {
 
+    /**
+     * The strategy pattern is a common solution for representing a family of algorithms and letting you choose among them at runtime.
+     * 
+     */
+
     @Test
     public void withoutLambda() {
         Validator v1 = new Validator(new IsNumeric());
@@ -19,6 +24,6 @@ public class Strategy {
         System.out.println(v1.validate("aaa"));
 
         Validator v2 = new Validator((String s) -> s.matches("[a-z]+"));
-        System.out.println(v1.validate("bbb"));
+        System.out.println(v2.validate("bbb"));
     }
 }
