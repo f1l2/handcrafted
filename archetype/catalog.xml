@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+  <archetypes>
+    <archetype>
+	<groupId>at.f1l2.mvn</groupId>
+	<artifactId>archetype-basic</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
+
+
+mvn archetype:generate -DarchetypeGroupId=at.f1l2.mvn -DarchetypeArtifactId=archetype-basic -DarchetypeVersion=0.0.1-SNAPSHOT -DgroupId=at.f1l2.test -DartifactId=testProject -DinteractiveMode=false
