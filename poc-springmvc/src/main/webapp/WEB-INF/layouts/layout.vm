@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Spring & Velocity</title>  
+ 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+	<ling rel="stylesheet" type="text/css" href="resources/css/custom.css">
+</head>
+<body>
+  <div>
+      #parse("/WEB-INF/fragments/_header.vm")
+  </div>
+  
+  
+  <div>
+  
+    <!-- View abc.vm is inserted here -->
+    <!-- Noi dung View abc.vm se duoc tren tai day -->   
+    $screen_content
+ 
+  </div>
+  
+  <div>
+      #parse("/WEB-INF/fragments/_footer.vm")
+  </div>
+  
+  <script src="resources/js/tether.min.js"></script>
+  <script src="resources/js/jquery-3.2.0.min.js"></script>
+  <script src="resources/js/bootstrap.min.js"></script>
+  <script src="resources/js/custom.js"></script>
+  
+</body>
+</html>
