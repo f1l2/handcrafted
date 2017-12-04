@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="187" started-at="2017-08-25T21:31:40Z" finished-at="2017-08-25T21:31:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="187" started-at="2017-08-25T21:31:40Z" finished-at="2017-08-25T21:31:41Z">
+      <class name="bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TVShow()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="TVShow" duration-ms="16" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVShow -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TVShowTVShow()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="TVShowTVShow" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVShowTVShow -->
+        <test-method status="PASS" signature="TVShowEvent()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="TVShowEvent" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVShowEvent -->
+        <test-method status="PASS" signature="getName(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="getName" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="name" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johnny Cash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Johnny Cash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getName(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="getName" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="name" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="getViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewers -->
+        <test-method status="PASS" signature="getViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="getViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewers -->
+        <test-method status="PASS" signature="impact(int, int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="impact" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="impact" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="impact(int, int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="impact" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="impact" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="impact(int, int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="impact" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="impact" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="impact(int, int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="impact" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="impact" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impact -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="getViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getViewers -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="setViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setViewers -->
+        <test-method status="PASS" signature="setViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="setViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setViewers -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setName(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="setName" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="name" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johnny Cash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Johnny Cash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setName -->
+        <test-method status="PASS" signature="setName(java.lang.String, java.lang.String)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="setName" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="name" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setName -->
+        <test-method status="PASS" signature="setViewers(int, int)[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="setViewers" duration-ms="0" started-at="2017-08-25T23:31:40Z" data-provider="viewers" finished-at="2017-08-25T23:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setViewers -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testtoString()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="testtoString" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtoString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="init" is-config="true" duration-ms="0" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testtoString2()[pri:0, instance:bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest@215be6bb]" name="testtoString2" duration-ms="109" started-at="2017-08-25T23:31:40Z" finished-at="2017-08-25T23:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtoString2 -->
+      </class> <!-- bwi.prog2B.SS2017.wi16b138_Palatin.ES03.TVShowTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

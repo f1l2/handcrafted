@@ -1,0 +1,13 @@
+1.8     Überschrif
+1.8.1   Produkt 1
+Kurzbescheeibung
+1.8.2 	Produkt 2
+Kurzbeschreibung
+1.8.2.1   Im Produkt enthalten
+Baum
+Tee
+Spring
+Sonst
+1.9.2	Produkt 3
+Kurzbeschreibung
+1.9.2.3 Im Produkt enthalten

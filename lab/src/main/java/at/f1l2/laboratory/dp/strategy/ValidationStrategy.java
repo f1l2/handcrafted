@@ -2,6 +2,6 @@ package at.f1l2.laboratory.dp.strategy;
 
 public interface ValidationStrategy {
 
-    boolean execute(String s);
+	boolean execute(String s);
 
 }

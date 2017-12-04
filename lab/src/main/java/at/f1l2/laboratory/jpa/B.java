@@ -1,0 +1,67 @@
+package at.f1l2.laboratory.jpa;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
+@Entity
+@Table(name = "B")
+public class B {
+
+	@Id
+	// @SequenceGenerator(name = "SEQ")
+	// @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ")
+	private Long id;
+
+	private String description;
+
+	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@Fetch(value = FetchMode.SUBSELECT)
+	private List<C> cs;
+
+	@ManyToOne(targetEntity = A.class)
+	private A parent;
+	// Getter & Setter
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public List<C> getCs() {
+		return cs;
+	}
+
+	public void setCs(List<C> cs) {
+		this.cs = cs;
+	}
+
+	public A getParent() {
+		return parent;
+	}
+
+	public void setParent(A parent) {
+		this.parent = parent;
+	}
+
+}
