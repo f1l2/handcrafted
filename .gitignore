@@ -6,6 +6,7 @@
 
 # Temp files
 /RemoteSystemsTempFiles
+/Server
 .metadata
 
 # Target folder
