@@ -1,0 +1,43 @@
+
+\
+squid:S106Ñ";Replace this usage of System.out or System.err by a logger.(‹‚óı8şòŠ—¿+Hæ
+o
+squid:S134¼"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ìè”´8şòŠ—¿+Hç
+a
+squid:S106¥";Replace this usage of System.out or System.err by a logger.(¸ƒ¶¦üÿÿÿÿ8İ±¸¾+Hè
+Ysquid:S1197M"8Move the array designator from the variable to the type.(ìù‘¼8ñ¸ã·¾+Hé
+`squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ê»¬¸¾+Hê
+wsquid:UselessImportCheck"PRemove this unused import 'com.fasterxml.jackson.databind.JsonMappingException'.(÷™‹ÍHë
+gsquid:UnusedPrivateMethod•"2Remove this unused private "getMapFromMap" method.(ÉÒáùÿÿÿÿ8şòŠ—¿+Hì
+a
+squid:S106ß";Replace this usage of System.out or System.err by a logger.(ŞÆ­Ûşÿÿÿÿ8§ŞÒ·¾+Hí
+rsquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(ÑÉƒ‚úÿÿÿÿ8şòŠ—¿+Hî
+ysquid:S3776¬"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÎƒÂæùÿÿÿÿ8şòŠ—¿+Hï
+esquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8şòŠ—¿+Hğ
+Hsquid:S1168í"&Return an empty array instead of null.(¥¹ï8şòŠ—¿+Hñ
+\squid:S1141Å"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8şòŠ—¿+Hò
+esquid:S1155·">Use isEmpty() to check whether the collection is empty or not.(ò™äĞúÿÿÿÿ8şòŠ—¿+Hó
+a
+squid:S106¾";Replace this usage of System.out or System.err by a logger.(˜Òæüÿÿÿÿ8‹»³¸¾+Hô
+wsquid:S00122Ö"TAt most one statement is allowed per line, but 2 statements were found on this line.(ëäã¤8şòŠ—¿+Hõ
+n
+squid:S134Y"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(›…£¹8ª£¦¸¾+Hö
+Zsquid:UselessParenthesesCheck"!Remove those useless parentheses.(¼•Ş†üÿÿÿÿ8şòŠ—¿+H÷
+a
+squid:S106ê";Replace this usage of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8şòŠ—¿+Hø
+Asquid:S1168¨"&Return an empty array instead of null.(¥¹ïHù
+`
+squid:S106z";Replace this usage of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8––¸¾+Hú
+{squid:UselessImportCheck"HRemove this unused import 'org.junit.gen5.commons.util.CollectionUtils'.(¬„œôúÿÿÿÿ8şòŠ—¿+Hû
+Lsquid:S1166Ğ"%Either log or rethrow this exception.(©œ¡ÿÿÿÿÿ8şòŠ—¿+Hü
+dsquid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8şòŠ—¿+Hı
+\
+squid:S106ã";Replace this usage of System.out or System.err by a logger.(ˆİ’Ô8şòŠ—¿+Hş
+Y
+squid:S106?";Replace this usage of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿHÿ
+Jsquid:S1148Ò"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8şòŠ—¿+H€
+\
+squid:S106£";Replace this usage of System.out or System.err by a logger.(²Ï8Åï¸¾+H
+Zsquid:UselessParenthesesCheckš"!Remove those useless parentheses.(Ô±äÂûÿÿÿÿ8şòŠ—¿+H‚
+Esquid:S2095Ú"Close this "FileOutputStream".(–Şÿÿÿÿÿ8şòŠ—¿+Hƒ
+vsquid:UselessImportCheck"JRemove this unused import 'com.fasterxml.jackson.core.JsonParseException'.(¸ÔéÿıÿÿÿÿH„
