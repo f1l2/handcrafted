@@ -115,6 +115,19 @@ public class JpaTest {
 	}
 
 	@Test
+	public void test2() {
+
+		String query = "SELECT a FROM A a INNER JOIN a.bs b INNER JOIN b.cs c WHERE (b.id,b.parent) IN (SELECT MAX(b2.id),b2.parent FROM B b2 GROUP BY b2.parent) AND c.description = 'c3'";
+
+		List<A> resultList = em.createQuery(query).getResultList();
+
+		Assert.assertEquals(1, resultList.size());
+
+		Assert.assertEquals("a2", resultList.get(0).getDescription());
+
+	}
+
+	// @Test
 	public void test() {
 
 		String query = "SELECT c1 FROM A c1 INNER JOIN c1.bs c2 INNER JOIN c2.cs c3 where c3.id = :id GROUP BY c1";
@@ -236,6 +249,61 @@ public class JpaTest {
 		b4.getCs().add(c2);
 		b5.getCs().add(c3);
 		b6.getCs().add(c1);
+		b2.getCs().add(c3);
 	}
+
+	// SELECT*
+	//
+	// FROM A;
+	//
+	// SELECT*
+	// FROM B;SELECT*
+	// FROM B_C;SELECT*
+	// FROM C;SELECT*
+	// FROM B
+	// LEFT JOIN
+	// B_C ON B.id=
+	// B_C.B_ID LEFT
+	// JOIN C
+	// ON C.id=
+	// B_C.CS_ID
+	// WHERE C.DESCRIPTION='c3'
+	// ORDER BY B.ID;
+	//
+	// SELECT*
+	// FROM A
+	// WHERE A.
+	//
+	// ID IN (
+	// SELECT b1.PARENT_ID FROM B b1 WHERE ((b1.ID,b1.PARENT_ID) IN (
+	//
+	// SELECT MAX(b2.ID),b2.PARENT_ID FROM B b2 GROUP BY b2.PARENT_ID)) AND 'b3'
+	// )
+	//
+	// SELECT * FROM B
+	//
+	// b1 WHERE ((b1.ID,b1.PARENT_ID) IN (
+	//
+	// SELECT MAX(b2.ID),b2.PARENT_ID FROM B b2 GROUP BY b2.PARENT_ID)) AND
+	// b1.DESCRIPTION = 'b3'
+	//
+	// SELECT * FROM B b1 WHERE
+	// SELECT (MAX(b2.ID), b2.PARENT_ID) FROM B b2 GROUP BY b2.PARENT_ID
+	//
+	// SELECT *
+	// FROM t1 WHERE (id,rev) IN
+	// ( SELECT id, MAX(rev)
+	// FROM t1
+	// GROUP BY id
+	// )
+	//
+	// SELECT MAX(ID) FROM B
+	//
+	// author a
+	// JOIN book_author ba ON a.id = ba.authorId
+	// JOIN books b ON b.id = ba.bookId
+	//
+	//
+	// SELECT * FROM C;
 
 }

@@ -4,13 +4,10 @@ import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-
-import org.hibernate.annotations.Fetch;
-import org.hibernate.annotations.FetchMode;
 
 @Entity
 @Table(name = "A")
@@ -23,8 +20,8 @@ public class A {
 
 	private String description;
 
-	@OneToMany(targetEntity = B.class, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	@Fetch(FetchMode.SUBSELECT)
+	@OneToMany(targetEntity = B.class, cascade = CascadeType.ALL)
+	@JoinColumn
 	private Set<B> bs;
 	// Getter & Setter
 
