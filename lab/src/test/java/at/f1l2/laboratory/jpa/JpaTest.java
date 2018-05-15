@@ -74,7 +74,7 @@ public class JpaTest {
         TestTransaction.start();
     }
 
-    @Test
+    // @Test
     public void test2() {
 
         String query = "SELECT a FROM A a INNER JOIN a.bs b INNER JOIN b.cs c WHERE (b.id,b.parent) IN (SELECT MAX(b2.id),b2.parent FROM B b2 GROUP BY b2.parent) AND c.description = :description";
