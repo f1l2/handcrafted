@@ -80,3 +80,41 @@
 1526472516612:help
 1526472547579:exit
 1526472557068:help
+1526500537987:encrypt -p C:/Users/Manuel/Downloads/a-0800_enc.pdf
+1526500541144:help help
+1526500551305:help decrypt
+1526500575535:encrypt --path C:/Users/Manuel/Downloads/a-0800_enc.pdf --password geheim
+1526500586582:decrypt --path C:/Users/Manuel/Downloads/a-0800_enc.pdf --password geheim
+1526501555379:exit
+1526501578430:help
+1526501628560:exit
+1526501645280:help
+1526501683907:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526501692596:stacktrace
+1526501705410:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526501797207:stacktrace
+1526501801448:exit
+1526501826716:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526501922430:exit
+1526501938274:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502020919:exit
+1526502036149:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502152918:exit
+1526502168332:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502206875:exit
+1526502237206:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502255593:eit
+1526502257246:exit
+1526502273480:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502375528:exit
+1526502392101:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502912003:exit
+1526502927750:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526502981607:exit
+1526503000673:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526503058768:exit
+1526503074589:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526503102016:exit
+1526503135388:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1526503260739:exit
+1526503282091:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg

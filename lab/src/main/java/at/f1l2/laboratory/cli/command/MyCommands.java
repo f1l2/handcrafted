@@ -15,58 +15,73 @@ import org.springframework.shell.standard.ShellOption;
 
 import at.f1l2.laboratory.encryption.FileDecryption;
 import at.f1l2.laboratory.encryption.FileEncryption;
+import at.f1l2.laboratory.pdf.PDFConverter;
 import at.f1l2.laboratory.pdf.PDFMerge;
 
 @ShellComponent
 @ShellCommandGroup("f1l2 Commands")
 public class MyCommands {
 
-    @Autowired
-    private FileEncryption fileEncyption;
+	@Autowired
+	private FileEncryption fileEncyption;
 
-    @Autowired
-    private FileDecryption fileDecryption;
+	@Autowired
+	private FileDecryption fileDecryption;
 
-    @Autowired
-    private PDFMerge pdfMerge;
+	@Autowired
+	private PDFMerge pdfMerge;
 
-    @ShellMethod("Encrypt file")
-    public String encrypt(@ShellOption({ "-p", "--path" }) String filePath, @ShellOption({ "-p", "--password" }) String password) throws Exception {
-        String newPath = fileEncyption.encrypt(password, filePath);
-        return "Encryption finished successfully. File: " + newPath;
-    }
+	@Autowired
+	private PDFConverter pdfConverter;
 
-    @ShellMethod("Decrypt file")
-    public String decrypt(@ShellOption({ "-p", "--path" }) String filePath, @ShellOption({ "-p", "--password" }) String password) throws Exception {
-        String newPath = fileDecryption.decrypt(password, filePath);
-        return "Decryption finished successfully. File: " + newPath;
-    }
+	@ShellMethod("Encrypt file")
+	public String encrypt(@ShellOption({ "-p", "--path" }) String filePath,
+			@ShellOption({ "-p", "--password" }) String password) throws Exception {
+		String newPath = fileEncyption.encrypt(password, filePath);
+		return "Encryption finished successfully. File: " + newPath;
+	}
 
-    @ShellMethod("Property")
-    public String property(String property) {
-        return System.getProperty(property);
-    }
+	@ShellMethod("Decrypt file")
+	public String decrypt(@ShellOption({ "-p", "--path" }) String filePath,
+			@ShellOption({ "-p", "--password" }) String password) throws Exception {
+		String newPath = fileDecryption.decrypt(password, filePath);
+		return "Decryption finished successfully. File: " + newPath;
+	}
 
-    @ShellMethod("Clean")
-    public String clean() throws IOException {
-        Path path = Paths.get(System.getProperty("user.home"), "Downloads");
+	@ShellMethod("Property")
+	public String property(String property) {
+		return System.getProperty(property);
+	}
 
-        for (File file : path.toFile().listFiles()) {
-            if (file.isDirectory()) {
-                FileUtils.deleteDirectory(file);
-            } else {
-                file.delete();
-            }
-        }
-        return "Clean finished successfully.";
-    }
+	@ShellMethod("Clean")
+	public String clean() throws IOException {
+		Path path = Paths.get(System.getProperty("user.home"), "Downloads");
 
-    @ShellMethod("Merge PDFs.\n\t\tOption 'path' defines full qualified path for pdf folder. Files are sorted by name and have to be of type PDF.")
-    public String merge(@ShellOption({ "-p", "--path" }) String folderPath) throws Exception {
-        if (Objects.isNull(folderPath)) {
-            throw new OptionRequiredException("path");
-        }
-        String newPath = pdfMerge.merge(folderPath);
-        return "Merge finished successfully. File: " + newPath;
-    }
+		for (File file : path.toFile().listFiles()) {
+			if (file.isDirectory()) {
+				FileUtils.deleteDirectory(file);
+			} else {
+				file.delete();
+			}
+		}
+		return "Clean finished successfully.";
+	}
+
+	@ShellMethod("Merge PDFs.\n\t\tOption 'path' defines full qualified path for pdf folder. Files are sorted by name and have to be of type PDF.")
+	public String merge(@ShellOption({ "-p", "--path" }) String folderPath) throws Exception {
+		if (Objects.isNull(folderPath)) {
+			throw new OptionRequiredException("path");
+		}
+		String newPath = pdfMerge.merge(folderPath);
+		return "Merge finished successfully. File: " + newPath;
+	}
+
+	@ShellMethod("Image to PDF.\n\t\tOption 'path' defines full qualified path for image file.")
+	public String imageToPDF(@ShellOption({ "-p", "--path" }) String filePath) throws Exception {
+		if (Objects.isNull(filePath)) {
+			throw new OptionRequiredException("path");
+		}
+		String newPath = pdfConverter.createPDFFromImage(filePath);
+		return "Convertion finished successfully. File: " + newPath;
+	}
 }
