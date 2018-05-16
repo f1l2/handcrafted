@@ -27,11 +27,10 @@ public class PDFMerge {
 
         final List<File> sortedFileList = Arrays.stream(folder.listFiles()).sorted((f1, f2) -> alphanumComparator.compare(f1.getName(), f2.getName())).collect(Collectors.toList());
 
-        sortedFileList.stream().forEach(System.out::println);
-
         final PDFMergerUtility pdfMergerUtility = new PDFMergerUtility();
         for (File file : sortedFileList) {
             pdfMergerUtility.addSource(file);
+            System.out.println(file.getName());
         }
 
         Path path = Paths.get(folderPath, "Merged.pdf");
@@ -42,5 +41,4 @@ public class PDFMerge {
         return path.toString();
 
     }
-
 }

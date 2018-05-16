@@ -61,7 +61,7 @@ public class MyCommands {
         return "Clean finished successfully.";
     }
 
-    @ShellMethod("Merge PDFs")
+    @ShellMethod("Merge PDFs.\n\t\tOption 'path' defines full qualified path for pdf folder. Files are sorted by name and have to be of type PDF.")
     public String merge(@ShellOption({ "-p", "--path" }) String folderPath) throws Exception {
         if (Objects.isNull(folderPath)) {
             throw new OptionRequiredException("path");
