@@ -18,15 +18,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class FileEncryption extends BaseDeEncryption {
 
-    public String encrypt(String password, String path) throws IOException, NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+    public String encrypt(String password, String filePath) throws IOException, NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
 
-        byte[] text = Files.readAllBytes(Paths.get(path));
+        byte[] text = Files.readAllBytes(Paths.get(filePath));
 
         Cipher cipher = Cipher.getInstance("AES");
         cipher.init(Cipher.ENCRYPT_MODE, generateSecretKeySpec(password));
         byte[] encrypted = cipher.doFinal(text);
 
-        String newPath = getEncryptedPath(path);
+        String newPath = getEncryptedPath(filePath);
         FileUtils.writeByteArrayToFile(new File(newPath), encrypted);
 
         return newPath;
