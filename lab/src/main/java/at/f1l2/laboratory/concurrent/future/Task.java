@@ -1,18 +1,25 @@
 package at.f1l2.laboratory.concurrent.future;
 
-
 import org.apache.commons.lang3.RandomUtils;
 
-public class Task  {
+public class Task {
 
-	
-	public String doWork() {
-		try {
-		Thread.sleep(RandomUtils.nextLong(1000, 5000));
-		} catch (Exception ex) {
-			
-		}
-		return "done";
-	}
+    private String name;
+
+    public Task(String name) {
+        this.name = name;
+    }
+
+    public String doWork() {
+        try {
+
+            System.out.println(Thread.currentThread().getName() + " executing task " + name);
+
+            Thread.sleep(RandomUtils.nextLong(1000, 2000));
+        } catch (Exception ex) {
+
+        }
+        return Thread.currentThread().getName() + " finished task " + name;
+    }
 
 }

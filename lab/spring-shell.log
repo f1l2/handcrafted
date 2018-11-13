@@ -118,3 +118,5 @@
 1526503135388:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
 1526503260739:exit
 1526503282091:image-to-pdf C:/Users/Manuel/Desktop/Änderung.jpeg
+1540214335423:decrypt --path C:/Users/FilzM/Downloads/Ticket_Sommernachtstraum_1q2w3e_enc.pdf --password 1q2w3e4r5
+1540214340438:decrypt --path C:/Users/FilzM/Downloads/Ticket_Sommernachtstraum_1q2w3e_enc.pdf --password 1q2w3e
