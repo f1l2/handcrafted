@@ -4,6 +4,7 @@
 *.project
 *.recommenders
 *.sonarlint
+spring-shell.log
 
 
 # Temp files
