@@ -15,6 +15,11 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.transaction.TestTransaction;
 
+import at.f1l2.lab.jpa.User;
+import at.f1l2.lab.jpa.UserFriend;
+import at.f1l2.lab.jpa.UserFriendRepository;
+import at.f1l2.lab.jpa.UserRepository;
+
 @ContextConfiguration(locations = { "file:src/test/resources/context.xml" })
 @RunWith(SpringRunner.class)
 @Transactional

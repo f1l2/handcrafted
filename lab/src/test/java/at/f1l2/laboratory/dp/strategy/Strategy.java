@@ -2,6 +2,10 @@ package at.f1l2.laboratory.dp.strategy;
 
 import org.junit.Test;
 
+import at.f1l2.lab.dp.strategy.IsAllLowerCase;
+import at.f1l2.lab.dp.strategy.IsNumeric;
+import at.f1l2.lab.dp.strategy.Validator;
+
 public class Strategy {
 
 	/**
