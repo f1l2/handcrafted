@@ -1,4 +1,4 @@
-package at.f1l2.laboratory.dp.strategy;
+package at.f1l2.lab.dp.strategy;
 
 import org.junit.Test;
 

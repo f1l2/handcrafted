@@ -1,4 +1,4 @@
-package at.f1l2.laboratory.jpa;
+package at.f1l2.lab.jpa;
 
 import java.util.List;
 

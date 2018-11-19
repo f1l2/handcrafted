@@ -1,4 +1,4 @@
-package at.f1l2.laboratory.dp.strategy;
+package at.f1l2.lab.dp.strategy;
 
 import java.util.ArrayList;
 import java.util.List;
